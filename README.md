@@ -55,7 +55,17 @@ https://a.co/d/9v0axIW
 
 https://a.co/d/dn54Qsq
 
+1x (or 2x as explain in the directions) 2-pin JST connectors
+
+https://a.co/d/e1lcXov
+
 ~31g PLA filament
+
+2x Protoboards. I won't link mine because I hated working with them, but again, it doesn't really matter. 
+
+Some wire. Solid core is nice. Diameter doesn't matter here as long as you can solder it to whatever breadboards you got
+
+
 
 ## Disclaimer
 
