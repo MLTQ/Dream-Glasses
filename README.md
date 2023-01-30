@@ -18,6 +18,35 @@ The instructions for building Dream Glasses will be provided in the project's Gi
 
 We hope that you will enjoy building and using the Dream Glasses as much as we did. Happy exploring!
 
+## Bill of Materials
+These are not affilate links, these are the actual (or near) the things I used to make this:
+
+1x 2-Digit 7-Segment Display - You could use 2 separate 7-segment displays, but I didn't.
+https://www.amazon.com/dp/B07GTRBR8Z
+
+2x Knock-off neopixel rings
+https://www.amazon.com/dp/B082SCYQM1
+
+1x Literally the cheapest arduino I could find. Use the compute you need and no more :)
+https://www.amazon.com/dp/B08THVMQ46
+
+1x Charger chip - I couldn't find the ones I actually used. I just had them lying around, but this seems to be close enough (and is USBC!)
+https://a.co/d/0NCSBtZ
+
+1x 10k and 1x 20k potentiometers - There is nothing special about these. But if you don't use the values I did, you'll have to change the constants in the arduino sketch
+https://a.co/d/jgA7dFj 
+
+1x Toggle Switch - I like toggle switches, they feel nice and look cool. I used 3-pole on/off/on but left one un-used. Don't do that. Get 2-pole. 
+https://a.co/d/ipWZZoH
+
+1x Lil' battery. This is mounted to the glasses, so don't go big with it. This is the one I used WATCH OUT FOR THE WIRING ON IT! Some (mine) are wired backwards.
+https://a.co/d/9v0axIW
+
+2x 10k resistors. Just get a book of resistors, you should really have one if you're in to this stuff. I won't link one because the one I got is no longer on amazon and they're all the same anyway. 
+
+4x M2x20mm Screws - These hold the arms on the frames. The threading isn't necessary, you could just as easily use a small metal dowel or solid-core wire. 
+https://a.co/d/dn54Qsq
+
 ## Disclaimer
 
 Please be aware that it is important to use the Dream Glasses with caution and in a safe environment. Do not use the Dream Glasses while driving or operating heavy machinery. If you have any medical conditions or are taking any medications, please consult with your doctor before using the Dream Glasses.
