@@ -1,3 +1,17 @@
+# What is this?
+This is an open source device to experiment with Flicker Potentials. 
+
+Flicker Potential or Flicker Response or Photic Entrainment is the tendency for observed brainwave patterns to mimic some periodic exogenous flickering lights.
+
+If you've heard of "Binaural Beats", where you can influence your brainwaves via an induced beat frequency, this is like that but WAY stronger. 
+
+### What to Expect
+Fantastical geometric closed eye hallucinations within seconds of putting the device on. General strange feelings afterwards. My experience is a giant concentric + that turns into an X that turns into a diamond tunnel leading to the sky and then a field of waving blobs. Honestly some wild stuff from literally just flickering LEDs.
+
+### How to Use 
+Turn on, set to desired frequency, put on face, adjust brightness to a comfortable level (not too bright.)
+![Don't make them this bright](https://github.com/MLTQ/Dream-Glasses/blob/master/images/Overkill.GIF?raw=true)
+
 # Dream Machine
 
 The Dream Machine is a device that was first developed in the 1960s by artist Brion Gysin and engineer Ian Sommerville. It consisted of a paper tube placed on a record player, with an incandescent light inside. When the record player was turned on, the tube would spin, causing the light to flicker and cast patterns on the walls of a room.
@@ -68,7 +82,7 @@ https://a.co/d/e1lcXov
 Some wire. Solid core is nice. Diameter doesn't matter here as long as you can solder it to whatever breadboards you got
 
 
-#Instructions!
+##Instructions!
 ### Step 1 - Print your Frames
 That's it, that's the step.
 
@@ -76,11 +90,37 @@ I printed with 20% in-fill. but they're so small that there is only a small part
 
 Don't use supports. 
 
-### Step 2 - Lay out your Control Board
+### Step 2 - Lay out your Boards and Solder
 To balance the glasses, the power and control boards are split up to either side of the head. Where all the action happens is the Control Board (CB). 
 
 ![Dream Glasses Schematic](https://github.com/MLTQ/Dream-Glasses/blob/master/images/Wiring_Diagram.png?raw=true)
 
+The LiPo charger, battery and switch are on the Power Board (PB). From the diagram it doesn't look balanced, but given the mass of the battery, it feels pretty well balanced on your face. 
+
+![Boards Layout](https://github.com/MLTQ/Dream-Glasses/blob/master/images/Boards.png?raw=true)
+
+In my protoype here, you can see 2 sets of 3 female headers below the arduino. These were for testing different values of potentiometers (to get a proper sensitivity for gain) but truth be told the connection isn't good enough to do that. Use the values I used, or 2x10k. 
+
+In the /images folder there are pinouts for both the 2x7seg and Arduino. 
+If you use a different wiring, make sure the wires for the 2x7seg data lines are sequential, I used 2-9, but having them be sequential like that allows the code to be simpler in addressing them.
+
+### Step 3 - Load up the Sketch!
+Before you connect, MAKE SURE the switch on the PB is off.
+
+In the Arduino IDE, select board type as Arduino Leonardo, load up the sketch, and send it! 
+
+If you changed the potentiometers, be sure to play around with the scale factor ints declared at the top until you're satisfied. 
+
+That's it!
+
+
+# Library
+This is an evolving project. Here is a list of links to better research Photic Entrainment and Flicker Potentials
+https://journals.physiology.org/doi/abs/10.1152/jn.1941.4.1.51?journalCode=jn
+https://www.sciencedirect.com/science/article/abs/pii/S0306452200005790
+
+Lots of evidence for alpha, but gamma seems less clear:
+https://www.jneurosci.org/content/41/31/6684.abstract
 
 ## Disclaimer
 
@@ -88,3 +128,4 @@ Please be aware that it is important to use the Dream Glasses with caution and i
 
 ## Double Disclaimer
 I got ChatGPT to write this readme.md lol (Aside from the BOM and the instructions section)
+
