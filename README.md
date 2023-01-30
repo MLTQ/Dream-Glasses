@@ -18,6 +18,8 @@ The instructions for building Dream Glasses will be provided in the project's Gi
 
 We hope that you will enjoy building and using the Dream Glasses as much as we did. Happy exploring!
 
+
+
 ## Bill of Materials
 These are not affilate links, these are the actual (or near) the things I used to make this:
 
@@ -65,6 +67,19 @@ https://a.co/d/e1lcXov
 
 Some wire. Solid core is nice. Diameter doesn't matter here as long as you can solder it to whatever breadboards you got
 
+
+#Instructions!
+### Step 1 - Print your Frames
+That's it, that's the step.
+
+I printed with 20% in-fill. but they're so small that there is only a small part that infill actually effects. There is only a right-arm included, copy it and mirror in your slicer to get the left arm.
+
+Don't use supports. 
+
+### Step 2 - Lay out your Control Board
+To balance the glasses, the power and control boards are split up to either side of the head. Where all the action happens is the Control Board (CB). 
+
+![Dream Glasses Schematic](https://github.com/MLTQ/Dream-Glasses/blob/master/images/Wiring_Diagram.png?raw=true)
 
 
 ## Disclaimer
